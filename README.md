@@ -1,7 +1,19 @@
-<p align="center">2  <img src="./logo.svg" width="500" />3</p>4 5<h1 align="center">kuma-importer</h1>6 7<p align="center">8  Interactive CLI tool for managing Uptime Kuma monitors with CSV, profiles, and automation workflows.9</p>10 11<p align="center">12  <img src="https://img.shields.io/badge/version-v0.1.0-blue" />13  <img src="https://img.shields.io/badge/python-3.10%2B-blue" />14  <img src="https://img.shields.io/badge/license-MIT-green" />15</p>
+<p align="center">  
+
+<img src="./logo.svg" width="500" />
+</p>
+<h1 align="center">kuma-importer</h1><p align="center">
+
+Interactive CLI tool for managing Uptime Kuma monitors with CSV, profiles, and automation workflows.
+</p>
+<p align="center">
+<img src="https://img.shields.io/badge/version-v0.1.0-blue" />
+<img src="https://img.shields.io/badge/python-3.10%2B-blue" />
+<img src="https://img.shields.io/badge/license-MIT-green" />
+</p>
 
 
-<p align="center">2  <img src="./terminal-banner.svg" width="800
+<p align="center">
 
 # kuma-importer
 
