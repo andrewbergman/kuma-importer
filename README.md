@@ -5,7 +5,7 @@
 
 # kuma-importer
 
-Manage Uptime Kuma monitors as code — safely, repeatably, and at scale.
+Define, apply, and maintain Uptime Kuma monitors as code using safe, idempotent workflows.
 
 ## Demo
 
@@ -25,6 +25,14 @@ Manage Uptime Kuma monitors as code — safely, repeatably, and at scale.
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 Interactive CLI tool for managing Uptime Kuma monitors using CSV, TXT, and manual workflows.
+
+---
+
+## Why this exists 
+
+Managing Uptime Kuma manually doesn’t scale.
+kuma-importer lets you define monitors as code and apply them safely, repeatedly, and predictably.
+
 
 ---
 
