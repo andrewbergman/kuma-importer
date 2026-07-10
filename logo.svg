@@ -1,0 +1,11 @@
+<svg width="480" height="120" viewBox="0 0 480 120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="480" height="120" fill="#0f172a"/>
+  <circle cx="60" cy="60" r="28" fill="#3b82f6"/>
+  <path d="M50 60 L60 70 L75 50" stroke="white" stroke-width="4" fill="none"/>
+  <text x="110" y="55" font-family="Arial, sans-serif" font-size="28" fill="#f1f5f9">
+    kuma-importer
+  </text>
+  <text x="110" y="82" font-family="Arial, sans-serif" font-size="12" fill="#94a3b8">
+    Uptime Kuma automation CLI
+  </text>
+</svg>

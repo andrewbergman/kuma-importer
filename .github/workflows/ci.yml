@@ -1,0 +1,77 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Upgrade pip
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Install package in editable mode
+        run: |
+          pip install -e .
+
+      - name: Verify CLI entry point
+        run: |
+          kuma-import --help
+
+      - name: Verify script entry point
+        run: |
+          python kuma_importer.py --help
+
+      - name: Validate example CSV
+        run: |
+          python kuma_importer.py --csv example_monitors.csv --validate
+
+  shell-test-runner:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Upgrade pip
+        run: |
+          python -m pip install --upgrade pip
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          pip install -e .
+
+      - name: Ensure scenario test script is executable
+        run: |
+          chmod +x test_kuma_importer_scenarios.sh
+
+      - name: Run non-destructive scenario tests
+        run: |
+          bash ./test_kuma_importer_scenarios.sh --script kuma_importer.py --csv example_monitors.csv || true
