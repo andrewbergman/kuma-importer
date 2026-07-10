@@ -1,0 +1,5 @@
+example.com
+service.example.com
+another.example.com
+fabrikam.com
+contoso.com

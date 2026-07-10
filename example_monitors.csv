@@ -1,0 +1,3 @@
+client,name,url,type,interval,maxretries,retryInterval,group,tags,enabled,notifications,status_page,public_group,method,ignore_tls,timeout,accepted_statuscodes,keyword,expected_value
+ExampleClient,example.com,https://Fabrikam.com,http,60,1,60,ExampleClient,,true,Email-Alerts,public-status,Websites,GET,false,48,200-299,,
+ExampleClient,service.example.com,https://service.example.com,http,60,1,60,ExampleClient,,true,Email-Alerts,public-status,Websites,GET,false,48,200-299,,

@@ -1,0 +1,43 @@
+<svg width="900" height="260" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="260" fill="#0f172a"/>
+
+  <!-- Terminal header -->
+  <rect x="0" y="0" width="900" height="40" fill="#1e293b"/>
+  <circle cx="20" cy="20" r="6" fill="#ef4444"/>
+  <circle cx="40" cy="20" r="6" fill="#f59e0b"/>
+  <circle cx="60" cy="20" r="6" fill="#22c55e"/>
+
+  <!-- Title -->
+  <text x="80" y="25" font-family="monospace" font-size="16" fill="#cbd5f5">
+    kuma-importer
+  </text>
+
+  <!-- Terminal content -->
+  <text x="20" y="70" font-family="monospace" font-size="14" fill="#22c55e">
+    $ kuma-import
+  </text>
+
+  <text x="20" y="100" font-family="monospace" font-size="14" fill="#f1f5f9">
+    CREATE example.com
+  </text>
+
+  <text x="20" y="125" font-family="monospace" font-size="14" fill="#facc15">
+    UPDATE service.example.com
+  </text>
+
+  <text x="20" y="150" font-family="monospace" font-size="14" fill="#94a3b8">
+    SKIP static.example.com
+  </text>
+
+  <text x="20" y="190" font-family="monospace" font-size="14" fill="#22c55e">
+    ✔ Created: 1
+  </text>
+
+  <text x="150" y="190" font-family="monospace" font-size="14" fill="#facc15">
+    Updated: 1
+  </text>
+
+  <text x="280" y="190" font-family="monospace" font-size="14" fill="#94a3b8">
+    Skipped: 1
+  </text>
+</svg>

@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+kuma-env/
+
+# Logs
+*.log
+
+# Test outputs
+scenario_test_*.log
+
+# Generated CSVs
+export_*.csv
+exported_*.csv
+
+# Backups
+backups/
+
+# macOS
+.DS_Store
+
+# Temporary / editor
+*.swp
+*.swo

@@ -1,0 +1,4 @@
+
+# Requirements for Uptime Kuma Importer v6
+# Pin the working API version for compatibility with Uptime Kuma v2
+uptime-kuma-api2==2.1.0
