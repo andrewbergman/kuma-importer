@@ -1,11 +1,14 @@
 <p align="center">  
 
 <img src="./logo.svg" width="500" />
+
 </p>
+
 <h1 align="center">kuma-importer</h1><p align="center">
 
-Interactive CLI tool for managing Uptime Kuma monitors with CSV, profiles, and automation workflows.
 </p>
+
+
 <p align="center">
 <img src="https://img.shields.io/badge/version-v0.1.0-blue" />
 <img src="https://img.shields.io/badge/python-3.10%2B-blue" />
