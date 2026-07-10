@@ -5,6 +5,21 @@
 
 # kuma-importer
 
+Manage Uptime Kuma monitors as code — safely, repeatably, and at scale.
+
+## Demo
+
+<p align="center">
+  <img src="demo.gif" alt="kuma-importer demo">
+</p>
+
+<p align="center">
+  <sub>Animated demo of creating, verifying, and cleaning up monitors</sub>
+</p>
+
+<p align="center">
+  <a href="demo>
+
 ![Version](https://img.shields.io/badge/version-v0.1.0-blue)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
