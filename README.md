@@ -18,8 +18,6 @@
 
 <p align="center">
 
-# kuma-importer
-
 Define, apply, and maintain Uptime Kuma monitors as code using safe, idempotent workflows.
 
 ## Demo
